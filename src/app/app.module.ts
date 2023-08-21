@@ -7,6 +7,8 @@ import { CarouselComponent } from './carousel/carousel.component';
 import { ImageGalleryComponent } from './image-gallery/image-gallery.component';
 import { PhotoCarouselComponent } from './photo-carousel/photo-carousel.component';
 import { TSliderComponent } from './t-slider/t-slider.component';
+import { PriceSliderComponent } from './price-slider/price-slider.component';
+
 
 @NgModule({
   declarations: [
@@ -15,7 +17,8 @@ import { TSliderComponent } from './t-slider/t-slider.component';
     CarouselComponent,
     ImageGalleryComponent,
     PhotoCarouselComponent,
-    TSliderComponent
+    TSliderComponent,
+    PriceSliderComponent
   ],
   imports: [
     BrowserModule,
