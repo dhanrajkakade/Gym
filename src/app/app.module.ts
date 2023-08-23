@@ -8,6 +8,9 @@ import { ImageGalleryComponent } from './image-gallery/image-gallery.component';
 import { PhotoCarouselComponent } from './photo-carousel/photo-carousel.component';
 import { TSliderComponent } from './t-slider/t-slider.component';
 import { PriceSliderComponent } from './price-slider/price-slider.component';
+import { FooterComponent } from './footer/footer.component';
+import { NewNavComponent } from './new-nav/new-nav.component';
+import { BmiComponent } from './bmi/bmi.component';
 
 
 @NgModule({
@@ -18,7 +21,10 @@ import { PriceSliderComponent } from './price-slider/price-slider.component';
     ImageGalleryComponent,
     PhotoCarouselComponent,
     TSliderComponent,
-    PriceSliderComponent
+    PriceSliderComponent,
+    FooterComponent,
+    NewNavComponent,
+    BmiComponent
   ],
   imports: [
     BrowserModule,

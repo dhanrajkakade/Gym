@@ -10,18 +10,26 @@
 
 body{
     min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     background-color: #EFEFEF;
 }
 
+
+.slider-container {
+    /* max-width: 1120px; */
+    /* width: 348px; */
+    margin: 50px;
+    justify-content: center;
+    padding: 40px 0;
+    display: flex;
+}
 .slider-content{
     margin: 0 40px;
+    
 }
 
 .card{
     width:320px;
+    margin: 50px;
     border-radius: 25px;
     background-color: #FFF;
 }
